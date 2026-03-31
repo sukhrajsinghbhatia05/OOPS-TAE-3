@@ -1,9 +1,17 @@
-abstract class Shape {
-    abstract void calculate_area(); [cite: 26]
-    void display_info() { System.out.println("This is a shape."); } [cite: 26]
+abstract class Shape 
+{
+    abstract void calculate_area();
+    
+    void display_info() 
+    {
+        System.out.println("This is a concrete method in an abstract class.");
+    }
 }
 
-class Circle extends Shape {
-    void calculate_area() { System.out.println("Circle Area Formula"); } [cite: 27]
+class Circle extends Shape 
+{
+    void calculate_area() 
+    {
+        System.out.println("Calculating Circle Area...");
+    }
 }
-// Note: Shape s = new Shape(); would cause a compilation error. [cite: 28]
