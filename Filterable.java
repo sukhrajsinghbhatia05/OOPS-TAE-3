@@ -1,9 +1,31 @@
-interface Filterable {
-    void apply_filter(String type); [cite: 34]
-    void reset_filter(); [cite: 34]
+interface Filterable 
+{
+    void apply_filter(String filter_type);
+    void reset_filter();
 }
 
-class ImageProcessor implements Filterable { [cite: 36]
-    public void apply_filter(String t) { System.out.println("Filtering image: " + t); } [cite: 38]
-    public void reset_filter() { System.out.println("Image reset."); } [cite: 38]
+class ImageProcessor implements Filterable 
+{
+    public void apply_filter(String type) 
+    {
+        System.out.println("Applying " + type + " to Image.");
+    }
+
+    public void reset_filter() 
+    {
+        System.out.println("Image Filter Reset.");
+    }
+}
+
+class DataAnalyzer implements Filterable 
+{
+    public void apply_filter(String type) 
+    {
+        System.out.println("Applying " + type + " to Data.");
+    }
+
+    public void reset_filter() 
+    {
+        System.out.println("Data Filter Reset.");
+    }
 }
