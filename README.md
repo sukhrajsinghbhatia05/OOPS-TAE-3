@@ -6,7 +6,7 @@ This repository contains the Java source code for the Teacher Assesment Exam 3 (
 
 ## 📝 List of Aims & Tasks
 
-### 🏗️ Unit 1 & 2: Classes and Objects
+### 🏗️ Unit I & II: Classes and Objects
 - [x] **Aim 1:** Create a `Person` class with name/age attributes and a constructor.
 - [x] **Aim 2:** Design a `Book` class and a `Library` class using `ArrayList` for management.
 - [x] **Aim 3:** Define a `CARRENTAL` class with automated rent calculation based on car type.
