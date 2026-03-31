@@ -32,6 +32,35 @@ This repository contains the Java source code for the Teacher Assesment Exam 3 (
 - [x] **Aim 19:** Manage a collection of book details using an **Array of Objects**.
 - [x] **Aim 20:** Demonstrate object variable initialization using the `this` keyword.
 
+### 🧵 UNIT–III: Java Strings
+- [x] [cite_start]**Aim 1:** `UsernameValidator` - Basic string cleaning using `trim()` and `toLowerCase()`[cite: 113, 116, 117].
+- [x] [cite_start]**Aim 2:** `EmailChecker` - Validation of Gmail addresses using the `contains()` method[cite: 119, 121].
+- [x] [cite_start]**Aim 3:** `StudentNameComparison` - Case-sensitive and case-insensitive string comparison[cite: 123, 125, 127].
+- [x] [cite_start]**Aim 4:** `MessageFormatter` - String concatenation to format full names[cite: 130, 134].
+- [x] [cite_start]**Aim 5:** `FileExtensionExtractor` - Extracting extensions using the `substring()` method[cite: 136, 140].
+- [x] [cite_start]**Aim 6:** `WordCounter` - Using `StringTokenizer` to count words in a sentence[cite: 142, 145].
+- [x] [cite_start]**Aim 7:** `TextEditorBuffer` - Demonstrating `StringBuffer` for append, insert, and reverse operations[cite: 147, 149, 154].
+- [x] [cite_start]**Aim 8:** `TextProcessingBuilder` - Using `StringBuilder` and comparing it with `StringBuffer`[cite: 155, 157, 162].
+- [x] [cite_start]**Aim 9:** `Student` - Overriding the `toString()` method to display object details[cite: 164, 166, 170].
+- [x] [cite_start]**Aim 10:** `PasswordMaskingSystem` - Masking passwords using `replace()` and `substring()`[cite: 171, 174].
+
+### ⚠️ UNIT-IV: Exception Handling
+- [x] [cite_start]**Aim 11:** `ATMWithdrawal` - Manually throwing exceptions using the `throw` keyword[cite: 179, 182].
+- [x] [cite_start]**Aim 12:** `DivisionCalculator` - Handling division by zero using `try-catch` blocks[cite: 186, 188].
+- [x] [cite_start]**Aim 13:** `StudentInputSystem` - Using multiple catch blocks like `InputMismatchException`[cite: 190, 192].
+- [x] [cite_start]**Aim 14:** `FileProcessingSystem` - Implementing a `finally` block for resource cleanup[cite: 195, 197].
+- [x] [cite_start]**Aim 15:** `BankApplication` - Using the `throws` keyword in method signatures[cite: 199, 200, 201].
+
+### 🚦 UNIT-IV: Multithreading
+- [x] [cite_start]**Aim 16:** `MusicPlayer` - Creating threads by extending the `Thread` class and using `sleep()`[cite: 204, 205, 206].
+- [x] [cite_start]**Aim 17:** `DownloadManager` - Implementing the `Runnable` interface for multiple downloads[cite: 211, 212, 213].
+- [x] [cite_start]**Aim 18:** `RailwayReservation` - Using `synchronization` to prevent double booking[cite: 215, 216].
+- [x] [cite_start]**Aim 19:** `OnlineShoppingSystem` - Concurrent threads for payment and order confirmation[cite: 219, 220].
+- [x] [cite_start]**Aim 20:** `ThreadPrioritySystem` - Assigning and observing different thread priorities[cite: 223, 224, 225].
+- [x] [cite_start]**Aim 21:** `Restaurant` - Inter-thread communication using `wait()` and `notify()`[cite: 227, 228, 229].
+- [x] [cite_start]**Aim 22:** `BankingSystem` - Shared resource access using `synchronized` blocks[cite: 231, 232, 233].
+- [x] [cite_start]**Aim 23:** `ChatApplication` - Demonstrating the complete thread lifecycle[cite: 235, 237].
+
 ---
 
 ## 🚀 How to Run the Code
