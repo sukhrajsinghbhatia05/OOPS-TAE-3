@@ -40,6 +40,8 @@ This repository contains the Java source code for the Teacher Assesment Exam 3 (
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
 3. Compile any file:
+   ```bash
    javac FileName.java
-4. Run the program:
+5. Run the program:
+   ```bash
     java FileName
