@@ -1,22 +1,38 @@
-import java.util.ArrayList; [cite: 5]
+import java.util.ArrayList;
 
-class Book {
-    String title, author, ISBN; [cite: 5]
-    Book(String title, String author, String ISBN) {
-        this.title = title; this.author = author; this.ISBN = ISBN;
+class Book 
+{
+    String title, author, ISBN;
+
+    Book(String title, String author, String ISBN) 
+    {
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBN;
     }
 }
 
-class Library {
-    ArrayList<Book> books = new ArrayList<>(); [cite: 5]
+class Library 
+{
+    // Managing a collection of Book objects
+    ArrayList<Book> books = new ArrayList<>();
 
-    void addBook(Book b) { books.add(b); } [cite: 6]
+    void addBook(Book b) 
+    {
+        books.add(b);
+    }
     
-    void removeBook(String isbn) { [cite: 6]
+    void removeBook(String isbn) 
+    {
         books.removeIf(b -> b.ISBN.equals(isbn));
     }
 
-    void displayBooks() { [cite: 6]
-        for (Book b : books) System.out.println(b.title + " by " + b.author);
+    void displayBooks() 
+    {
+        for (Book b : books) 
+        {
+            System.out.println(b.title + " by " + b.author);
+        }
     }
+}}
 }
