@@ -33,8 +33,8 @@ This repository contains the Java source code for the Teacher Assesment Exam 3 (
 
 
 ### 🧵 UNIT–III: Java Strings
-[x] Aim 1: UsernameValidator - Basic string cleaning using trim() and toLowerCase().
-[x] Aim 2: EmailChecker - Validation of Gmail addresses using the contains() method.
+- [x] Aim 1: UsernameValidator - Basic string cleaning using trim() and toLowerCase().
+- [x] Aim 2: EmailChecker - Validation of Gmail addresses using the contains() method.
 [x] Aim 3: StudentNameComparison - Case-sensitive and case-insensitive string comparison.
 [x] Aim 4: MessageFormatter - String concatenation to format full names.
 [x] Aim 5: FileExtensionExtractor - Extracting extensions using the substring() method.
